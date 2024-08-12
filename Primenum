@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+class Primenum{
+   public static void main(String[] args){
+    int n,flag,x;
+    System.out.println("enter a num:");
+    Scanner sc=new Scanner(System.in);
+    n=sc.nextInt();
+    flag=1;
+    x=int(math.sqrt(n));
+    for(i=2;i<x+1;i++){
+    if(n%i==0)
+    flag=0;
+    break;
+    }
+    if(flag=1){
+    System.out.println("prime num");
+    }else{
+    System.out.println("not a prime");
+    }
+    }
+    }
+    
+    
