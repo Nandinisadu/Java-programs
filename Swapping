@@ -1,0 +1,46 @@
+// without using 3rd variable
+import java.io.*;
+calss Swapping{
+public static void main(String args[]){
+int a=4,b=5;
+System.out.println("before Swapping");
+System.out.println("a=" +a);
+System.out.println("b=" +b);
+a=a+b;
+b=a-b;
+a=a-b;
+System.out.println("after Swapping");
+System.out.println("a=" +a);
+System.out.println("b=" +b);
+}
+}
+//or using temp variable
+public static void main(String args[]){
+int x=3,y=4;
+System.out.println("before Swapping");
+System.out.println("x=" +x);
+System.out.println("y=" +y);
+int temp=x;
+x=y;
+y=temp;
+System.out.println("after Swapping");
+System.out.println("x=" +x);
+System.out.println("y=" +y);
+}
+}
+// with using 3rd variable
+public static void main(String args[]){
+int a=4,b=5,c;
+System.out.println("before Swapping");
+System.out.println("a=" +a);
+System.out.println("b=" +b);
+c=a;
+a=b;
+b=c;
+System.out.println("after Swapping");
+System.out.println("a=" +a);
+System.out.println("b=" +b);
+}
+}
+
+
