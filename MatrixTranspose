@@ -1,0 +1,32 @@
+import java.util.*;
+public class MatrixTranspose{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the num of rows:");
+int numRows=sc.nextInt();
+System.out.println("Enter the num of cols:");
+int numCols=sc.nextInt();
+int [][] matrix=new matrix[numRows][numCols];
+System.out.println("Enter the elements of the matrix:");
+for(int i=0;i<numRows;i++){
+for(int j=0;j<numCols;j++){
+matrix[i][j]=scanner.nextInt();
+}
+}
+int trans[][]=new int[numCols][numRows];
+System.out.println("Transpose of a matrix:");
+for(int i=0;i<numRows;i++);{
+for(int j=0;j<numCols;j++){
+trans[j][i]=matrix[i][j];
+}
+}
+for(int i=0;i<numCols;i++)}
+for(int j=0;j<numRows;j++){
+System.out.print(trans[i][j]+" ");
+}
+System.out.println();
+}
+}
+}
+
+
